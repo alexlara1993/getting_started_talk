@@ -8,7 +8,7 @@ app.set("view engine", "ejs");
 
 // our root route
 app.get("/", function (req, res) {
-  res.send("Hello world");
+  res.render("sites/home");
 });
 
 app.listen(3000, function () {
